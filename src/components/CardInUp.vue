@@ -39,9 +39,6 @@ export default {
 <style scoped lang="less">
 .hello {
   width: 540px;
-  margin-left: 60px;
-  margin-top: 80px;
-  // transform: scale(.7);
   .wrap {
     overflow: hidden;
     height: 447px;
