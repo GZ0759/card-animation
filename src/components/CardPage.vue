@@ -3,12 +3,10 @@
   <div class="shu">
     <div class="feng"></div>
     <div class="wen">
-      <h3 style="padding-top: 50px; padding-left: 40px">Life of Pi</h3>
+      <!-- <Card /> -->
+      <h3 style="padding-top: 50px; padding-left: 40px">云看家乡贺卡——山东青岛五四广场</h3>
       <p style="padding-top: 20px; padding-left: 40px; padding-right: 15px">
-        He lives in Scarborough. He's a small, slim man – nomore than five foot
-        five. Dark hair, dark eyes. Hair greyingat the temples. Can't be older
-        than forty. leasingcoffee-coloured complexion1. Mild fall weather, yet
-        puts on abig winter parka with fur-lined hood2 for the walk to thediner.
+        山东青岛五四广场 五四广场，因五四运动而得名，位于山东省青岛市市南区东海西路，与青岛市人民政府办公大楼相对，南临浮山湾。始建于1996年，是一处集草坪、喷泉、雕塑于一体的现代化风格广场，为青岛市地标建筑之一。
       </p>
     </div>
   </div>
@@ -27,18 +25,11 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  height: 100vh;
-  background-image: radial-gradient(white, black);
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .shu {
   position: relative;
-  width: 300px;
-  height: 400px;
+  width: 375px;
+  height: 500px;
   background-color: rgba(255, 255, 255, 0.774);
   transform-style: preserve-3d;
   box-shadow: 300px 0px 30px rgb(0, 0, 0, 0.6) inset;
@@ -48,7 +39,7 @@ body {
   content: '';
   position: absolute;
   height: 3px;
-  width: 303px;
+  width: 378px;
   left: 0px;
   bottom: -3px;
   /*  background-color: rgb(100, 96, 96); */

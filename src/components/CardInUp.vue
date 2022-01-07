@@ -3,7 +3,7 @@
     <div class="wrap">
       <div class="content" @click="reload">
         <van-row class="content-row" type="flex" justify="center">
-          <van-col span="12">这是一张贺卡</van-col>
+          <van-col span="12">云看家乡贺卡</van-col>
         </van-row>
         <van-row class="content-row" type="flex" justify="center">
           <van-col span="18">
@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'card-in-up',
   methods: {
     reload() {
       window.location.reload();

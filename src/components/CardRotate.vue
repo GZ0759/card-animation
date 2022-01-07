@@ -5,14 +5,14 @@
       <div class="img"></div>
     </div>
     <div class="card-body">
-      <h1>春节快乐</h1>
+      <Card />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'card-rotate',
   methods: {
     reload() {
       window.location.reload();
@@ -23,24 +23,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-html,
-body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 229, 111, 0.5);
-}
 
 #card {
-  height: 400px;
-  width: 250px;
+  height: 480px;
+  width: 300px;
   background-color: #e74c3c;
   transform-style: preserve-3d;
   transform: perspective(1000px);
@@ -95,13 +81,5 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
-}
-
-#card .card-body h1 {
-  writing-mode: vertical-lr;
-  font-family: '077-上首苍穹书法体';
-  font-size: 80px;
-  font-weight: 900;
-  color: rgb(223, 195, 106);
 }
 </style>
